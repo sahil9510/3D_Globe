@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-image: url('./static/stars.jpg');
+}
+
+.font-exo{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.font-lato{
+    font-family: 'Lato', sans-serif;
+}
+.webgl{
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+
+    outline: none;
+}
