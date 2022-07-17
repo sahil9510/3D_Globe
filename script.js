@@ -21,10 +21,10 @@ cursor.y = 0;
 const canvasContainer = document.querySelector('#canvasContainer')
 
 const textureLoader = new THREE.TextureLoader();
-const globeTexture = textureLoader.load('./static/globe1.jpg')
-const normalTexture = textureLoader.load('./static/normal.tif')
-const cloudsTexture = textureLoader.load('./static/clouds.jpg')
-const starTexture = textureLoader.load('./static/alpha.png')
+const globeTexture = textureLoader.load('globe1.jpg')
+const normalTexture = textureLoader.load('normal.tif')
+const cloudsTexture = textureLoader.load('clouds.jpg')
+const starTexture = textureLoader.load('alpha.png')
 
 
 const scene = new THREE.Scene()
